@@ -1,7 +1,7 @@
 body{
     background-color: black;
     background-image: url("BackgroundImage.png");
-    background-size:cover;
+    background-size: cover;
 }
 p{
     color: white;
@@ -9,7 +9,7 @@ p{
     font-size: 35px;
 }
 .gallery{
-    width:30%;
+    width: 30%;
     display: flex;
     height: 380px;
     gap: 5px;
