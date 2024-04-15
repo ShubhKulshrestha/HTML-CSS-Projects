@@ -27,11 +27,9 @@ img {
     align-items: center;
     gap: 20px;
 }
-
 .container:hover img {
     opacity: 0.3;
 }
-
 .container img:hover {
     transform: perspective(800px) rotateY(0deg);
     opacity: 1;
