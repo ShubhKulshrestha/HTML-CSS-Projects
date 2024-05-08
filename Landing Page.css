@@ -2,50 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 html body{
     width: 100%;
     height: 100%;
 }
-
 .main {
     height: 100%;
     width: 100%;
-    
 }
-
 .nav {
     height: 60px;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 3vw;
     font-size: 1.5vw;
 }
-
 .navpart2 {
     display: flex;
     gap: 4vw;
     align-items: center;
-
 }
-
 .navpart2  h4 a{
     cursor: pointer;
     text-decoration: none;
     color:black;
 }
-
 .navpart2 i {
     cursor: pointer;
     font-size: 1.25vw;
     font-weight: 800;
     display: none;
 }
-
 .navpart2 button {
     padding: 0.8vw 1.6vw;
     background-color: lightseagreen;
@@ -64,34 +54,26 @@ html body{
 .navpart2 button:hover {
     background-color: #000;
 }
-
 .content {
     width: 100%;
     height: calc(100vh - 60px);
-
     display: flex;
     /* align-items: center;
     justify-content: center; */
-
 }
-
 .left {
     width: 50%;
     height: 100%;
-
     padding: 4vw 3vw;
 }
-
 .left h1 {
     font-size: 5vw;
     line-height: 5.5vw;
     width: 100%;
 }
-
 .left h1 span {
     color: lightseagreen;
 }
-
 .left p {
     font-size: 1.5vw;
     line-height: 2vw;
@@ -101,18 +83,14 @@ html body{
     margin-top: 2vw;
     margin-bottom: 3vw;
 }
-
 .right {
     width: 50%;
     height: 100%;
-
 }
-
 .right img {
     height: 100%;
     width: 100%;
 }
-
 .left button {
     font-size: 1.5vw;
     padding: 1.2vw 2.2vw;
@@ -127,90 +105,67 @@ html body{
     background-color: #000;
 }
 
-
-
 @media (max-width:550px) {
     .nav {
         background-color: rgb(32, 163, 157);
         padding: 3vw 4vw;
-
     }
-
     .nav h2 {
         font-size: 6vw;
         color: #fff;
     }
-
     .navpart2 h4 {
         font-size: 4vw;
         display: none;
     }
-
     .navpart2 i {
         cursor: pointer;
         font-size: 6vw;
         display: block;
         color: #fff;
     }
-
     .navpart2 button {
         font-size: 4vw;
         padding: 2vw 3.5vw;
-        
     }
     .navpart2 button:hover {
         background-color: #000;
     }
-
-    .content {
+     .content {
         height: calc(100% - 60px);
         flex-direction: column;
-
-    }
-
+     }
     .left {
-
         width: 100%;
         height: 50%;
         padding: 3vw 3vw;
-
     }
-
-    .left h1 {
+     .left h1 {
         font-size: 10vw;
         line-height: 12vw;
-        
-    }
-
+     }
     .left p {
         font-size: 4vw;
         width: 100%;
         line-height: 4vw;
         margin-top: 5vw;
         margin-bottom: 4vw;
-
     }
-
     .left button {
         padding: 3vw 6vw;
         font-size: 4vw;
         margin-top: 3vw;
         border-radius: 25px;
-        
-    }
+     }
     .navpart2 button:hover {
         background-color: #000;
     }
-
-    .right {
-
-        width: 100%;
-        height: 50%;
+     .right {
+         width: 100%;
+         height: 50%;
     }
     .right img {
         width: 100%;
         height: 100%;
     }
-
-
 }
