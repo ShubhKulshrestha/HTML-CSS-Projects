@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <div class="box">
+    </div>
+    <button> ON </button>
+    <script>
+        let x = document.querySelector(".box")
+        let y = document.querySelector("button")
+        let flag = 0;
+        y.addEventListener("click", () => {
+            if (flag == 0) {
+                x.style.backgroundColor = "white";
+                y.innerText = "OFF";
+                console.log("clicked");
+                flag = 1;
+            }
+            else {
+                x.style.backgroundColor = "transparent";
+                y.innerText = "ON";
+                console.log("again clicked");
+                flag = 0;
+            }
+        });
+</script>
+</body>
+</html>
