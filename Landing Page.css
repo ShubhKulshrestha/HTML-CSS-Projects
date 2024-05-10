@@ -37,15 +37,15 @@ html body{
     display: none;
 }
 .navpart2 button {
-    padding: 0.8vw 1.6vw;
+    padding: 0.6vw 1.3vw;
     background-color: lightseagreen;
     text-decoration: none;
-    border-radius: 22px;
+    border-radius: 30px;
     color: #fff;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 1.2vw;
     border: none;
-    font-weight: 700;
+    font-weight: 600;
 }
 .navpart2 button a{
     text-decoration: none;
