@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+.desc {
+    font-size: 2.5vmax;
+    color: black;
+    padding: 9px 18px;
+    
+}
+.desc h2{
+    padding: 6px 0px;
+}
+.desc p{
+    line-height: 25px;
+}
+#ractangle{
+    width:60vmax;
+    height: 60vmin;
+    background-color:transparent;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+   
+}
