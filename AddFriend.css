@@ -1,1 +1,59 @@
-
+@font-face{
+    font-family: 'Gilroy';
+    src:url(Gilroy-ExtraBold.ttf)
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:'Gilroy';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue; 
+}
+.box{
+    width: 23vw;
+    height:65vh;
+    background-color: white;
+    border-radius: 10px ;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+}
+.box img{
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1000px;
+    
+}
+.box h1{
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.box h4{
+    color: red;
+    font-weight: 700;
+    font-size: 2vw;
+    margin: 10px 0;
+}
+.btn-container button{
+    
+    background-color: cadetblue;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
