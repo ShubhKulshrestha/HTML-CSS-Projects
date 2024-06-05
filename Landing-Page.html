@@ -1,6 +1,7 @@
 // Responsive Landing Page
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
         <div class="nav">
             <h2>Creativo</h2>
             <div class="navpart2">
+                <h4><a href="#">Blog</a></h4>
                 <h4><a href="#">Store</a></h4>
                 <h4><a href="#">About Us</a></h4>
                 <h4><a href="#">Contact Us</a></h4>
@@ -20,6 +22,16 @@
                 <i class="ri-menu-3-line"></i>
             </div>
         </div>
+        
+        <div class="sidebar">
+            <i class="ri-menu-unfold-line"></i>
+            <button><a href="#">Sign In</a></button>
+            <h4><a href="#">Blog</a></h4>
+            <h4><a href="#">Store</a></h4>
+            <h4><a href="#">About Us</a></h4>
+            <h4><a href="#">Contact Us</a></h4>
+        </div>
+        
         <div class="content">
             <div class="left">
                 <h1>Unleash Your <span>Creative</span> Genius</h1>
@@ -29,5 +41,19 @@
             <div class="right"><img src="3190343.png" alt="coding"></div>
         </div>
     </div>
+    <script>
+        sidebarclick = document.querySelector('.sidebar')
+        openmenuicon = document.querySelector('.ri-menu-3-line')
+        closemenuicon = document.querySelector('.ri-menu-unfold-line')
+       
+        openmenuicon.addEventListener("click",function(){
+             sidebarclick.style.display = 'flex';
+             });
+            closemenuicon.addEventListener("click",function(){
+            sidebarclick.style.display = 'none';
+            //sidebarclick.style.transform = 'translateX(0)';
+        });
+ </script>
 </body>
+
 </html>
