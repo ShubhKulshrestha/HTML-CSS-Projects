@@ -85,7 +85,6 @@ html body {
     }
 }
 
-
 .sidebar {
     display: none;
     gap: 2vw;
@@ -103,9 +102,6 @@ html body {
     box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
     font-size: 1.5vw;
     animation: slideIn 0.4s forwards;
-
-
-
 }
 
 .sidebar a {
@@ -142,17 +138,13 @@ html body {
 .content {
     width: 100%;
     height: calc(100vh - 60px);
-
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
 
 }
 
 .left {
     width: 50%;
     height: 100%;
-
     padding: 4vw 3vw;
 }
 
