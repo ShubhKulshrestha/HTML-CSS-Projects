@@ -194,8 +194,6 @@ html body {
     background-color: #000;
 }
 
-
-
 @media (max-width:600px) {
     @font-face {
         font-family: 'Gilroy';
