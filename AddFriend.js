@@ -18,5 +18,4 @@ btn.addEventListener("click",function(){
     btn.style.backgroundColor="cadetblue"; 
     flag = 0;
     }
-
 })
