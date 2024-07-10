@@ -24,7 +24,6 @@ html body {
 .nav {
     height: 60px;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,7 +135,6 @@ html body {
     width: 100%;
     height: calc(100vh - 60px);
     display: flex;
-
 }
 
 .left {
