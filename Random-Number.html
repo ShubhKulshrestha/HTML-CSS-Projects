@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+</head>
+<style>
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        width: 100%;
+        height: 100vh;
+        background-color: black
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width:600px;
+        height: 500px;
+        padding: 20px 0px;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .container h1{
+        margin-bottom: 20px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .form #guess{
+font-size: 35px;
+margin-bottom: 30px;
+    }
+    .form input{
+        margin: 15px;
+        height: 30px;
+        
+    }
+    .form #subt{
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+    .result{
+        margin: 15px 0px;
+    }
+</style>
+<body>
+<div class="container">
+    <h1>Number Guessing Game</h1>
+    <p>Try and guess a random number between 1 and 100</p>
+    <p>You have 10 attempts to guess the right number</p><br>
+    <form action="#" class="form">
+    <label for="guessfield" id="guess">Guess a Number</label>
+    <input type="text" id="guessfield" class="guessfield">
+    <input type="submit" id="subt" value="Submit Guess">
+    </form>
+    <div class="result">
+        <p>Previous Guesses: <span class="guesses"></span></p>
+        <p>Guess Remainings <span class="lastresult">10</span></p>
+        <p class="loworhi"></p>
+    </div>
+</div>
+    <script>
+     const randomNumber = parseInt((Math.random()*100+1));
+     const submit = document.querySelector("#subt")
+     const usrinput = document.querySelector("#guessfield")
+     const guessslot = document.querySelector(".guesses")
+     const remaining = document.querySelector(".lastresult")
+     const loworhi = document.querySelector(".loworhi")
+     const startover = document.querySelector(".result")
+     const p = document.querySelector("p")
 
+    
+
+
+
+    </script>
+</body>
+</html>
